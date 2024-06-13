@@ -14,7 +14,7 @@ let name = "Areesha" // String DataTypes
 let age = 18 //Number
 let isLoggedIn = false // Boolean DataTypes
 
-    //DataTypes
+//*********DataTypes*********
 // Number => 2 to power 53
 // bigint 
 // string => using double code ""
