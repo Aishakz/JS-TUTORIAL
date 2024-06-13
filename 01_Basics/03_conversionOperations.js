@@ -26,6 +26,52 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber)
-console.log(stringNumber)
+// console.log(typeof stringNumber)
+// console.log(stringNumber)
 
+// ***********Operations************
+let value = 3
+let negValue = -value
+// console.log(negValue)
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2%2);
+// console.log(2/2);
+
+//** Basic Conversion **//
+
+let str1 = "hello"
+let str2 = " Areesha"
+
+let str3 = str1+ str2
+// console.log(str3)
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log((3 +4) * 5 % 3)
+
+//Readability is tooo Important 
+
+//**Tricky Conversion *//
+
+// console.log(+true);
+// console.log(+"")
+
+//****______ ****//
+
+let num1, num2, num3 
+
+num1 = num2 =num3 = 2+2
+
+let gameCounter = 100 
+gameCounter++;
+console.log(gameCounter)
+
+//Link to study
+//https://en.wikipedia.org/wiki/Type_conversion#:~:text=In%20computer%20science%2C%20type%20conversion,a%20string%2C%20and%20vice%20versa.
