@@ -34,4 +34,33 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World")
 }
-console.log(typeof heros)
+// console.log(typeof heros)
+
+
+//**************Memory***************////
+// 2 types of Memory
+// Stack memory
+// Heap memory
+
+// Primitive DataTypes using Stack Memory
+// Non Primitive DataTypes using Heap Memory
+
+let myYoutubename = "Areeshadotcom"
+
+let anotherName = myYoutubename
+anotherName = "Chai or Code"
+
+console.log(anotherName)
+console.log(myYoutubename)
+
+let userOne= {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let usertwo = userOne
+
+usertwo.email = "areesha@google.com"
+
+console.log(userOne.email);
+console.log(usertwo.email);
