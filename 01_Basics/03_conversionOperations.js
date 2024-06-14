@@ -71,7 +71,19 @@ num1 = num2 =num3 = 2+2
 
 let gameCounter = 100 
 gameCounter++;
-console.log(gameCounter)
+// console.log(gameCounter)
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
 
 //Link to study
 //https://en.wikipedia.org/wiki/Type_conversion#:~:text=In%20computer%20science%2C%20type%20conversion,a%20string%2C%20and%20vice%20versa.
