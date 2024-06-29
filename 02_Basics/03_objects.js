@@ -3,10 +3,10 @@
 // jb bhi hum literals ke tarah declare krty hn tw singleton nh banta
 // curly brases he object kehlaty hn
 // objects m symbol dataType [square breses] m declare hoty hn 
-
 // object.create
-// object literals
 
+
+// object literals
 const mySym = Symbol("key1")
 
 const JSuser = {
